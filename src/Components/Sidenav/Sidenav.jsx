@@ -21,7 +21,7 @@ const TooltipIcon = styled(({ className, ...props }) => (
   ))(({ theme }) => ({
     [`& .${tooltipClasses.arrow}`]: {
       color: theme.palette.common.black,
-      transform:"transleteX(-40px)",
+      
     },
     [`& .${tooltipClasses.tooltip}`]: {
       backgroundColor: theme.palette.common.black,
@@ -31,7 +31,6 @@ const TooltipIcon = styled(({ className, ...props }) => (
       height:"fit-content",
       position:"relative",
       textAlign:"center",
-      transform:"transleteX(-40px)",
       marginTop:"30px"
     },
   }));
@@ -44,27 +43,30 @@ function Sidenav() {
               <img id='logo-img' src={logo} alt="logo"></img>
           </TooltipIcon>
         </Link>
-        <Link className={"link-elem"}>
+    
+      <nav>
+      <NavLink className={"link-elem"}>
           <TooltipIcon title="Introducion" arrow placement="right-start">
             <IconButton className="navElement">
               <BsPersonLinesFill />
             </IconButton>
           </TooltipIcon>
-        </Link>
-        <Link className={"link-elem"}>
+        </NavLink>
+        <NavLink className={"link-elem"}>
           <TooltipIcon title="My codes" arrow placement="right-start">
             <IconButton className="navElement">
               <BsJournalCode />
             </IconButton>
           </TooltipIcon>
-        </Link>
-        <Link className={"link-elem"}>
+        </NavLink>
+        <NavLink className={"link-elem"}>
           <TooltipIcon title="Education" arrow placement="right-start">
             <IconButton className="navElement">
               <BsCardChecklist />
             </IconButton>
           </TooltipIcon>
-        </Link>
+        </NavLink>
+      </nav>
     </div>
   )
 }
