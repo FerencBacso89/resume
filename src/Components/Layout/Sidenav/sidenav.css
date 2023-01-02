@@ -1,0 +1,18 @@
+.navbar{
+    max-height: 100%;
+    width:80px;
+    background: linear-gradient(180deg,
+    #15adad 50%,
+    transparent
+    );
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1); /*hexa színkód: #25c7c7 */
+    -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1);
+    box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1);
+} 
+#logo-img{
+    width:60px;
+    height: 60px;
+    clip-path: circle(40%);
+    margin:20px 10px;
+
+}
