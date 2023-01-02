@@ -1,6 +1,6 @@
 import "../Layout/layout.css"
-import "./Sidenav/sidenav.css"
-import Sidenav from "./Sidenav/sidenav"
+import "../Sidenav/sidenav.css"
+import Sidenav from "../Sidenav/Sidenav"
 
 const Layout =()=> {
   return (
