@@ -15,8 +15,22 @@
     clip-path: circle(40%);
     margin:20px 10px;
 }
-.link-elem{
-    font-size: 36px;
+.link-elem > button{
+    font-size: 32px;
     width: 80px;
     height: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.navElement {
+    position: relative;
+    font-size: 1.5rem;
+    top: 0px;
+    margin-bottom: 0.5rem;
+}
+
+.navElement:hover {
+    color: #fff ;
+    
 }
