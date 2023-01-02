@@ -1,6 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-// import reactLogo from './assets/react.svg'
-// import './App.css'
+
 import Layout from './Components/Layout/Layout'
 
 function App() {

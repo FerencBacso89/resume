@@ -1,10 +1,9 @@
 .navbar{
-    max-height: 100%;
+    position:absolute;
+    height: 100%;
+    min-height: 500px;
     width:80px;
-    background: linear-gradient(180deg,
-    #15adad 50%,
-    transparent
-    );
+    background: linear-gradient( 180deg, #15adad 50%, transparent );
     -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1); /*hexa színkód: #25c7c7 */
     -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1);
     box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1);
