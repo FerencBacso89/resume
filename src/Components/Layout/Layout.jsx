@@ -1,11 +1,9 @@
 import "../Layout/layout.css"
-import "../Sidenav/sidenav.css"
-import Sidenav from "../Sidenav/Sidenav"
 
 const Layout =()=> {
   return (
-    <div id="layout">
-        <Sidenav/>
+    <div className="App" id="layout">
+          <Home/>
     </div>
   )
 }

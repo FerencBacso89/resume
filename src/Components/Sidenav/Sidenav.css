@@ -9,10 +9,11 @@
     box-shadow: 5px 0px 5px 0px rgba(37, 199, 199, 1);
 } 
 #logo-img{
-    width:60px;
-    height: 60px;
-    clip-path: circle(40%);
-    margin:20px 10px;
+width: 35px;
+height: 35px;
+clip-path: circle(50%);
+margin: 20px 1.4rem;
+aspect-ratio: 4/3;
 }
  button{
     font-size: 32px;

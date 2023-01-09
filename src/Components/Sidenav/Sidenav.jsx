@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Link, NavLink } from "react-router-dom"
-import logo from "../../assets/img/bg-goose.png"
+import logo from "../../assets/img/gooseflight_brand.png"
 import "../Sidenav/sidenav.css"
 
 /*Material UI & Icons */
@@ -15,12 +15,14 @@ import {
   BsJournalCode,
 } from "react-icons/bs";
 import { positions } from '@mui/system';
+
  
 const TooltipIcon = styled(({ className, ...props }) => (
     <Tooltip {...props} arrow classes={{ popper: className }} />
   ))(({ theme }) => ({
     [`& .${tooltipClasses.arrow}`]: {
       color: theme.palette.common.black,
+      marginTop:"0px"
       
     },
     [`& .${tooltipClasses.tooltip}`]: {
@@ -39,27 +41,25 @@ function Sidenav() {
   return (
     <div className="navbar">
         <Link className="logo" to="/">
-          <TooltipIcon title="DevBacso" arrow placement="right-start">
               <img id='logo-img' src={logo} alt="logo"></img>
-          </TooltipIcon>
         </Link>
     
       <nav>
-      <NavLink className={"link-elem"}>
+      <NavLink className={"link-elem"} to="/introducion">
           <TooltipIcon title="Introducion" arrow placement="right-start">
             <IconButton className="navElement">
               <BsPersonLinesFill />
             </IconButton>
           </TooltipIcon>
         </NavLink>
-        <NavLink className={"link-elem"}>
+        <NavLink className={"link-elem"} to="/mycode">
           <TooltipIcon title="My codes" arrow placement="right-start">
             <IconButton className="navElement">
               <BsJournalCode />
             </IconButton>
           </TooltipIcon>
         </NavLink>
-        <NavLink className={"link-elem"}>
+        <NavLink className={"link-elem"} to="/education">
           <TooltipIcon title="Education" arrow placement="right-start">
             <IconButton className="navElement">
               <BsCardChecklist />
@@ -68,6 +68,7 @@ function Sidenav() {
         </NavLink>
       </nav>
     </div>
+    
   )
 }
 
