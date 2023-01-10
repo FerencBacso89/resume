@@ -41,9 +41,9 @@ function Sidenav() {
   return (
     <div className="navbar">
         <Link className="logo" to="/">
-              <img id='logo-img' src={logo} alt="logo"></img>
+              <img id='logo-img' title='Welcome page' src={logo} alt="logo"></img>
         </Link>
-    
+  
       <nav>
       <NavLink className={"link-elem"} to="/introducion">
           <TooltipIcon title="Introducion" arrow placement="right-start">

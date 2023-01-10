@@ -1,12 +1,19 @@
 import React from 'react'
-import './home.css';
+import './welcome.css';
 import ProfilImg from "../../assets/img/world_profile.png"
+import { BsGithub } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
 
-function Home() {
+function Welcome() {
   return (
     <section className='mindset'>
         <img id="myImg" alt='Profile Picture' src={ProfilImg}></img>
         <article id='mindsetText'>
+          <h2>Welcome My portfolio site</h2>
+          <section className='iconStack'>
+            <p><BsGithub/></p>
+            <p><BsLinkedin/></p>
+          </section>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga repellendus eos numquam magni minima aperiam aspernatur nostrum. Fugiat, tenetur beatae. Culpa unde tempora eos mollitia eum placeat, enim adipisci quae voluptas odit ad voluptates repellendus
              perspiciatis ducimus voluptate porro iure cum reprehenderit doloremque quo nihil sint odio? A, porro! Quae!
              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nemo incidunt neque porro accusantium pariatur nostrum, ipsum voluptates dicta aut atque vel, sapiente distinctio commodi eos necessitatibus voluptatum maxime facere.
@@ -22,4 +29,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Welcome

@@ -6,3 +6,9 @@ https://mui.com/material-ui/getting-started/installation/
 
 https://mui.com/material-ui/api/icon-button/
 https://mui.com/material-ui/react-tooltip/
+
+responsive breakpoints & solutions:
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
+
+responsive youtube example:
+https://www.youtube.com/watch?v=CRK-8PqTmwQ

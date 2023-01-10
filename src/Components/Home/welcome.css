@@ -1,0 +1,73 @@
+.mindset{
+    /* margin: 40px 30rem; */
+    color:#fff;
+    height:auto;
+
+} 
+#mindsetText{
+    margin-left: 30vw;
+    width:60%;
+    max-width: 75ch;
+    height: 60%;
+    text-align: left;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+}
+#myImg{
+    width: 40%;
+    max-width:300px;
+    height: auto;
+    clip-path: circle(40%);
+    margin-left:0vw;
+}
+/* ----------------------- Responsive css ---------------------------------*/
+                /*
+                mobile device breakpoints:        
+                    iPhone 5S is an example of a Breakpoint 1 with 320px
+                    iPhone 6+ is an example of a Breakpoint 2 with 414px
+                    iPad Mini is an example of a Breakpoint 3 with 703px
+                    iPad Air is an example of a Breakpoint 4 with 768px
+                    Tablet styles (max-width: 768px)
+                    Mobile styles (max-width: 414px)
+                */
+/* @media screen and (min-device-width:1700px), screen and (max-device-width:2300px){
+    #mindsetText{
+        margin-left: 40rem;
+        width: 75ch;
+        height: 500px;
+        text-align: left;
+        line-height: 1.4rem;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-device-width:900px), screen and (max-width:1400px){
+    #mindsetText{
+        margin-left: 40rem;
+        width: 75ch;
+        height: 500px;
+        text-align: left;
+        line-height: 1.4rem;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width:430px), screen and (max-width:900px){
+    body{
+        overflow-y: visible;
+    }
+    #myImg{
+        width:25%;
+        height: auto;
+        clip-path: circle(40%);
+        margin-left:10%;
+    }
+
+    #mindsetText{
+        margin-left: 40%;
+        width: 45%;
+        height: 500px;
+        text-align: left;
+        line-height: 1.1rem;
+        font-size: 0.9rem;
+        
+    }
+} */
