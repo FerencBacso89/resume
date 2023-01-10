@@ -43,7 +43,7 @@ function Sidenav() {
         </Link>
   
       <nav>
-      <NavLink className={"link-elem"} to="/introducion">
+      <NavLink className={"link-elem"} to="/introduce">
           <TooltipIcon title="Introducion" arrow placement="right">
             <IconButton className="navElement">
               <BsPersonLinesFill />
