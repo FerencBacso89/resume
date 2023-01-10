@@ -8,23 +8,21 @@ function Welcome() {
   return (
     <section className='mindset'>
         <img id="myImg" alt='Profile Picture' src={ProfilImg}></img>
-        <article id='mindsetText'>
-          <h2>Welcome My portfolio site</h2>
-          <section className='iconStack'>
-            <p><BsGithub/></p>
-            <p><BsLinkedin/></p>
-          </section>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga repellendus eos numquam magni minima aperiam aspernatur nostrum. Fugiat, tenetur beatae. Culpa unde tempora eos mollitia eum placeat, enim adipisci quae voluptas odit ad voluptates repellendus
-             perspiciatis ducimus voluptate porro iure cum reprehenderit doloremque quo nihil sint odio? A, porro! Quae!
-             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem nemo incidunt neque porro accusantium pariatur nostrum, ipsum voluptates dicta aut atque vel, sapiente distinctio commodi eos necessitatibus voluptatum maxime facere.
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, harum temporibus! Ullam ex molestias maxime. 
-             Sequi dolorum quos autem placeat aspernatur alias repudiandae molestias nulla, commodi, accusamus in dignissimos ab magnam rem deserunt odio veritatis repellendus, voluptates inventore. Dolores accusantium dolor ipsa illo dicta tempore earum placeat cum minus, ipsam ad, libero eveniet tempora iusto dolore maiores sunt tenetur numquam recusandae? Molestias assumenda quae magni itaque recusandae fuga vitae dolor perspiciatis hic rem! Laboriosam delectus quisquam repudiandae ut ducimus cum quasi dolorum fugiat, enim ipsam corporis recusandae sed optio dolore,
-              veniam voluptatibus. Ducimus reiciendis, similique eum maiores tenetur eligendi quae?
-              amet consectetur adipisicing elit. Rem nemo incidunt neque porro accusantium pariatur nostrum, ipsum voluptates dicta aut atque vel, sapiente distinctio commodi eos necessitatibus voluptatum maxime facere.
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, harum temporibus! Ullam ex molestias maxime. 
-             Sequi dolorum quos autem placeat aspernatur alias repudiandae molestias nulla, commodi, accusamus in dignissimos ab magnam rem deserunt odio veritatis repellendus, voluptates inventore. Dolores accusantium dolor ipsa illo dicta tempore earum placeat cum minus, ipsam ad, libero eveniet tempora iusto dolore maiores sunt tenetur numquam recusandae? Molestias assumenda quae magni itaque recusandae fuga vitae dolor perspiciatis hic rem! Laboriosam delectus quisquam repudiandae ut ducimus cum quasi dolorum fugiat, enim ipsam corporis recusandae sed optio dolore,
-              veniam voluptatibus. Ducimus reiciendis, similique eum maiores tenetur eligendi quae?
+        
+          <h2>Welcome to My portfolio site</h2>
+          <article id='mindsetText'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ratione nihil dignissimos quia commodi consectetur, cupiditate molestiae eaque quisquam alias ex excepturi dolore, fuga unde vitae voluptates consequatur nemo beatae rerum. Minima labore facere quis animi ad commodi quaerat nisi repudiandae voluptates eaque dolor recusandae optio dolorem odio,
+         dicta est, impedit deserunt veniam nesciunt, in rem esse modi iusto! Deleniti sequi, ab quaerat ipsum dolores quod rerum. Nostrum neque, dicta magnam corporis debitis quam accusamus tempora quisquam tempore, facilis eveniet quaerat velit ratione non quia illo esse. Repellendus vitae esse nostrum, amet libero exercitationem provident ea quidem rem eum.
+          Alias eaque saepe nihil impedit quam accusantium ullam asperiores, est inventore incidunt et ipsum? A ut, ipsa aliquid molestias explicabo
+          voluptate possimus adipisci dolore laudantium qui. Et mollitia tempora quas exercitationem cum eaque labore, voluptatum atque esse.
+          Perspiciatis iusto molestias velit reiciendis ipsam? Deleniti error odio, dolor nulla porro, culpa nesciunt placeat fuga dignissimos id eius officia omnis doloremque? Quis ab totam nesciunt repellendus delectus cupiditate eveniet. Voluptatum odit at praesentium eaque quae nobis consequuntur rerum optio facilis ipsam hic harum assumenda, fuga illo voluptates similique quidem dignissimos. Sunt, odio nostrum optio iste officia maiores tempora placeat cupiditate libero similique recusandae!
         </article>
+          <section className='iconStack'>
+            <p>
+              <span><BsGithub/></span>
+              <span><BsLinkedin/></span>
+            </p>
+          </section>
     </section>
   )
 }

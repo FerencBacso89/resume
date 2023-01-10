@@ -3,31 +3,28 @@
     height: 100vh;
     min-height: 500px;
     width:80px;
-    background: linear-gradient( 180deg, var(--navbarblue) 30%, transparent );
+    background: linear-gradient( 180deg, var(--navbarblue) 50%, transparent );
     -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); /*hexa színkód: #25c7c7 */
     -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1);
     box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1);
 } 
 #logo-img{
-width: 35px;
-height: 35px;
+width: 45px;
+height: 45px;
 clip-path: circle(50%);
 margin: 20px 1.4rem;
 aspect-ratio: 4/3;
 }
  button{
-    font-size: 32px;
-    width: 80px;
-    height: 80px;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
+    width:50px;
+    height:50px;
+
+ }
 .navElement {
-    position: relative;
-    font-size: 1.5rem;
-    top: 0px;
-    margin-bottom: 0.5rem;
+    font-size: 2.5rem !important;
+    margin-bottom:3.5rem !important;
+    top: 5vh;
+
 }
 
 .navElement:hover {

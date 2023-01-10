@@ -1,24 +1,40 @@
 .mindset{
-    /* margin: 40px 30rem; */
+    margin: 0 auto;
     color:#fff;
-    height:auto;
-
+    height:100vh;
+    width: 90%;
 } 
+.mindset > h2{
+    margin:0 auto;
+    font-size: 5rem;
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+    width:80%;
+    padding-bottom: 20px;
+}
+.iconStack{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
 #mindsetText{
-    margin-left: 30vw;
-    width:60%;
-    max-width: 75ch;
+    margin: 0 auto;
+    width:70%;
+    max-width: 90ch;
     height: 60%;
     text-align: left;
-    line-height: 1.4rem;
-    font-size: 1.1rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    padding-left: 20px;
 }
 #myImg{
     width: 40%;
     max-width:300px;
     height: auto;
     clip-path: circle(40%);
-    margin-left:0vw;
+    margin:0 auto;
 }
 /* ----------------------- Responsive css ---------------------------------*/
                 /*
