@@ -2,7 +2,7 @@
   --primeColor:#434242;
   --navbarblue:#15adad;
   --shadowColor:37, 199, 199,1;
-  --navbarShadow:5px 0px 5px 0px rgba(37, 199, 199 ,1);
+  --navbarShadow:#25c7c7;
 }
 *{
   box-sizing: border-box;

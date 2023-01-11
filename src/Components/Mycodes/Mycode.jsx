@@ -1,9 +1,14 @@
-import React from 'react'
-import './mycode.css'
+import React from 'react';
+import './mycode.css';
+import CardList from './CardList';
 
 function Mycode() {
   return (
-    <div>Mycode</div>
+    <>
+    <section className="programList">
+        <CardList/>
+    </section>
+    </>
   )
 }
 

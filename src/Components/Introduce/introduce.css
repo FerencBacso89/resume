@@ -1,3 +1,11 @@
+@font-face {
+    font-family: display_ita ;
+    src: url('../../assets/fonts/Display-Italic.ttf');
+}
+@font-face {
+    font-family: display_reg ;
+    src: url('../../assets/fonts/Display-Regular.ttf');
+}
 .shortIntro{
     width: 90%;
     height: 300px;

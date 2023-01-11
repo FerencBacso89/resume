@@ -7,9 +7,12 @@ import React from 'react'
 function Introduce() {
   return (
     <>
-        <section className='shortIntro'>
+    <section className="projectGrid">
+      
+    </section>
+        {/* <section className='shortIntro'>
           <img alt="Bacsó Ferenc Front-end developer" src={Headimg}></img>
-      </section>
+      </section> */}
     </>
   )
 }

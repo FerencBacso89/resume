@@ -35,6 +35,7 @@
     height: auto;
     clip-path: circle(40%);
     margin:0 auto;
+    object-fit: cover;
 }
 /* ----------------------- Responsive css ---------------------------------*/
                 /*
