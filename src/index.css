@@ -3,10 +3,25 @@
   --navbarblue:#15adad;
   --shadowColor:37, 199, 199,1;
   --navbarShadow:#25c7c7;
+
+
+}
+@font-face {
+  font-family: display_ita ;
+  src: url('./../assets/fonts/Display-Italic.ttf');
+}
+@font-face {
+  font-family: display_reg ;
+  src: url('./../assets/fonts/Display-Regular.ttf');
+}
+@font-face {
+  font-family: codePro_reg ;
+  src: url('./assets/fonts/CodePro_reg.ttf');
 }
 *{
   box-sizing: border-box;
   margin: 0 0;  
+  
 }
 html{
   font-size: 62.5%; /*base font-size now 1rem = 10 px*/

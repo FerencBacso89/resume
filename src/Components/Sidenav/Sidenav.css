@@ -1,18 +1,14 @@
 .navbar{
-    position:fixed;
-    height: 100vh;
-    min-height: 500px;
+    position:absolute;
+    height:100vh;
+    min-height: 800px;
     width:80px;
     background: linear-gradient( 180deg, var(--navbarblue) 50%, transparent );
-    box-shadow: 8px 0px 8px 0px rgba(37, 199, 199 ,1);
-    transition: box-shadow ease-in-out infinite ;
+    box-shadow: 10px 0px 10px 0px rgb(0, 0, 0, 0.7);
+    transition: box-shadow ease-in-out 50s ;
     /* -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); /*hexa színkód: #25c7c7 */
    /* -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); */
 } 
-@keyframes boxshadow{
-    from {box-shadow: 2px 0px 2px 0px rgba(37, 199, 199 ,0.5);}
-  to {box-shadow: 8px 0px 8px 0px rgba(37, 199, 199 ,1);}
-}
 
 #logo-img{
 width: 45px;
@@ -40,11 +36,10 @@ object-fit: cover;
     
 }
 .bottomLinks{
-    margin-bottom:1.5vh !important;
     font-size: 2.5rem !important;
-    bottom: 3vh;
-    max-height: 3vh;
-    position: relative;
+    margin-top:10rem;
+    position: absolute;
+    height: fit-content;
 }
 .downNav{
     font-size: 2.5rem !important;

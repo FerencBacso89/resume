@@ -3,6 +3,7 @@
     color:#fff;
     height:100vh;
     width: 90%;
+
 } 
 .mindset > h2{
     margin:0 auto;
@@ -11,13 +12,21 @@
     -ms-word-wrap: break-word;
     width:80%;
     padding-bottom: 20px;
+    font-family: display_reg;
 }
 .iconStack{
     margin: 0 auto;
+    width:60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+}
+.iconStack> span{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin:0 auto;
 }
 #mindsetText{
     margin: 0 auto;
@@ -26,6 +35,7 @@
     height: 60%;
     text-align: left;
     line-height: 2rem;
+    font-family: codePro_reg;
     font-size: 1.6rem;
     padding-left: 20px;
 }

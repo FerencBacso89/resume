@@ -39,13 +39,13 @@ const TooltipIcon = styled(({ className, ...props }) => (
     },
   }));
 const HandleLinkedin=()=>{
-  window.open("https://www.linkedin.com/","_blank")
+  window.open("linkedin.com/in/devbacso","_blank")
 }
 const HandleGit=()=>{
-  window.open("https://www.linkedin.com/","_blank")
+  window.open("https://github.com/FerencBacso89","_blank")
 }
 const HandleSandbox=()=>{
-  window.open("https://www.linkedin.com/","_blank")
+  window.open("https://codesandbox.io/u/FerencBacso89","_blank")
 }
 function Sidenav() {
   return (
@@ -87,7 +87,7 @@ function Sidenav() {
           </TooltipIcon>
         </NavLink>
         <NavLink className={"link-elem"} onClick={HandleSandbox}>
-          <TooltipIcon title="Code sandbox" arrow placement="right">
+          <TooltipIcon title="CodeSandbox" arrow placement="right">
             <IconButton className=" downNav">
               <SiCodesandbox/>
             </IconButton>

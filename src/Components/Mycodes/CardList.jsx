@@ -6,7 +6,7 @@ import React from 'react'
 function CardList() {
   return (
     <>
-     <h2>My codes</h2>
+     <h2>Projects & code snipets</h2>
       <section className="cardList">
         {cardData.map((code) => {
           return (
@@ -27,6 +27,7 @@ const clickHandler = () =>{
         <article className='card'>
             <img src={img} alt=''></img>
             <h4>{company}</h4>
+            <h5>Used skills:</h5>
             <h5>{skills}</h5>
             <a type="button" onClick={clickHandler}>View on web</a>
         </article>
