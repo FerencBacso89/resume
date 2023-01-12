@@ -9,12 +9,16 @@ import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import { IconButton } from '@mui/material';
 import { styled } from "@mui/material/styles";
 import {
-  BsPersonSquare,
+  BsGithub,
+  BsLinkedin,
   BsCardChecklist,
   BsPersonLinesFill,
   BsJournalCode,
 } from "react-icons/bs";
+import {SiCodesandbox} from "react-icons/si"
+
 import { positions } from '@mui/system';
+import { LinkedIn } from '@mui/icons-material'
 
  
 const TooltipIcon = styled(({ className, ...props }) => (
@@ -34,7 +38,15 @@ const TooltipIcon = styled(({ className, ...props }) => (
       textAlign:"center",
     },
   }));
-
+const HandleLinkedin=()=>{
+  window.open("https://www.linkedin.com/","_blank")
+}
+const HandleGit=()=>{
+  window.open("https://www.linkedin.com/","_blank")
+}
+const HandleSandbox=()=>{
+  window.open("https://www.linkedin.com/","_blank")
+}
 function Sidenav() {
   return (
     <div className="navbar">
@@ -64,6 +76,31 @@ function Sidenav() {
             </IconButton>
           </TooltipIcon>
         </NavLink>
+
+      <section className="bottomLinks"> 
+
+        <NavLink className={"link-elem"} onClick={HandleGit}>
+          <TooltipIcon title="Github" arrow placement="right">
+            <IconButton className=" downNav">
+              <BsGithub/>
+            </IconButton>
+          </TooltipIcon>
+        </NavLink>
+        <NavLink className={"link-elem"} onClick={HandleSandbox}>
+          <TooltipIcon title="Code sandbox" arrow placement="right">
+            <IconButton className=" downNav">
+              <SiCodesandbox/>
+            </IconButton>
+          </TooltipIcon>
+        </NavLink>
+        <NavLink className={"link-elem"} onClick={HandleLinkedin}>
+          <TooltipIcon title="LinkedIn" arrow placement="right">
+            <IconButton className=" downNav">
+              <BsLinkedin/>
+            </IconButton>
+          </TooltipIcon>
+        </NavLink>
+      </section>
       </nav>
     </div>
     

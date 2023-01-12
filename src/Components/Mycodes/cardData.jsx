@@ -19,4 +19,40 @@ export const cardData = [
       description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
       url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
     },
+    {
+      id:3,
+      img:defaultImg,
+      company:'pdf invoice',
+      skills:'React, js, Material UI, css',
+      category:"code snipet",
+      description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
+      url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
+    },
+    {
+      id:4,
+      img:defaultImg,
+      company:'pdf invoice',
+      skills:'React, js, Material UI, css',
+      category:"code snipet",
+      description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
+      url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
+    },
+    {
+      id:5,
+      img:defaultImg,
+      company:'pdf invoice',
+      skills:'React, js, Material UI, css',
+      category:"code snipet",
+      description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
+      url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
+    },
+    {
+      id:6,
+      img:defaultImg,
+      company:'pdf invoice',
+      skills:'React, js, Material UI, css',
+      category:"code snipet",
+      description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
+      url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
+    },
   ];

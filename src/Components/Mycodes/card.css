@@ -1,9 +1,11 @@
 .cardList{
     width: 70vw;
     max-width: 1170px;
+    height: fit-content;
     margin:5rem auto;
     display: grid;
     gap:2rem;
+    
 
     border: 1px solid var(--navbarblue);
     margin:2vh auto;
@@ -53,6 +55,6 @@
 }
 @media screen and (min-width:768px){
     .cardList{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 0.5fr);
     }
 }
