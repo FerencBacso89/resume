@@ -29,7 +29,7 @@ const clickHandler = () =>{
             <h4>{company}</h4>
             <h5>Used skills:</h5>
             <h5>{skills}</h5>
-            <a type="button" onClick={clickHandler}>View on web</a>
+            <a type="button"  onClick={clickHandler}>View on web</a>
         </article>
         
     )
