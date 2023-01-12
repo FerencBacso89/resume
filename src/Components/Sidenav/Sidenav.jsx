@@ -39,7 +39,7 @@ const TooltipIcon = styled(({ className, ...props }) => (
     },
   }));
 const HandleLinkedin=()=>{
-  window.open("linkedin.com/in/devbacso","_blank")
+  window.open("https://www.linkedin.com/in/devbacso/","_blank")
 }
 const HandleGit=()=>{
   window.open("https://github.com/FerencBacso89","_blank")
