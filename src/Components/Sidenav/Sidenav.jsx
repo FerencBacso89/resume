@@ -26,7 +26,7 @@ const TooltipIcon = styled(({ className, ...props }) => (
     },
     [`& .${tooltipClasses.tooltip}`]: {
       backgroundColor: theme.palette.common.black,
-      fontSize: "1rem",
+      fontSize: "1.1rem",
       fontWeight: "bold",
       width: "fit-content",
       height:"fit-content",

@@ -4,10 +4,13 @@
     min-height: 500px;
     width:80px;
     background: linear-gradient( 180deg, var(--navbarblue) 50%, transparent );
-    -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); /*hexa színkód: #25c7c7 */
-    -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1);
-    box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1);
+    animation: boxshadow 5s infinite;
+    /* -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); /*hexa színkód: #25c7c7 */
+   /* -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); */
 } 
+@keyframes boxshadow{
+   50% {box-shadow: 15px 0px 15px 0px rgba(37, 199, 199 ,1);}
+}
 #logo-img{
 width: 45px;
 height: 45px;
@@ -32,4 +35,7 @@ object-fit: cover;
 .navElement:hover {
     color: #fff ;
     
+}
+.tooltip{
+        font-size: 5rem !important;
 }
