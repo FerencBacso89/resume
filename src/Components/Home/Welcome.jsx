@@ -8,21 +8,26 @@ function Welcome() {
   return (
     <section className='mindset'>
         <img id="myImg" alt='Profile Picture' src={ProfilImg}></img>
-        
-          <h2>Welcome to My portfolio site</h2>
-          <article id='mindsetText'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ratione nihil dignissimos quia commodi consectetur, cupiditate molestiae eaque quisquam alias ex excepturi dolore, fuga unde vitae voluptates consequatur nemo beatae rerum. Minima labore facere quis animi ad commodi quaerat nisi repudiandae voluptates eaque dolor recusandae optio dolorem odio,
-         dicta est, impedit deserunt veniam nesciunt, in rem esse modi iusto! Deleniti sequi, ab quaerat ipsum dolores quod rerum. Nostrum neque, dicta magnam corporis debitis quam accusamus tempora quisquam tempore, facilis eveniet quaerat velit ratione non quia illo esse. Repellendus vitae esse nostrum, amet libero exercitationem provident ea quidem rem eum.
-          Alias eaque saepe nihil impedit quam accusantium ullam asperiores, est inventore incidunt et ipsum? A ut, ipsa aliquid molestias explicabo
-          voluptate possimus adipisci dolore laudantium qui. Et mollitia tempora quas exercitationem cum eaque labore, voluptatum atque esse.
-          Perspiciatis iusto molestias velit reiciendis ipsam? Deleniti error odio, dolor nulla porro, culpa nesciunt placeat fuga dignissimos id eius officia omnis doloremque? Quis ab totam nesciunt repellendus delectus cupiditate eveniet. Voluptatum odit at praesentium eaque quae nobis consequuntur rerum optio facilis ipsam hic harum assumenda, fuga illo voluptates similique quidem dignissimos. Sunt, odio nostrum optio iste officia maiores tempora placeat cupiditate libero similique recusandae!
-        </article>
-          <section className='iconStack'>
+        <div>
+            <h2>Welcome to My portfolio site</h2>
+            <article id='mindsetText'>
+            My name is Ferenc Bacsó, and I have been working as a frontend developer since 2020. I am thrilled to share my work and passion for web development with you.
+              Currently, I am employed at the National Directorate General for Disaster Management, where I am dedicatedly involved in various IT projects. In 2022, I was recognized for my outstanding contributions in the field, an achievement that I am truly proud of.
+              However, my life is not solely focused on coding and technology. I have a deep love for birds and birdwatching, which brings me tranquility and inspiration. Hence, I decided to incorporate a flying goose logo, symbolizing my constant pursuit of growth and improvement.
+              On this website, I showcase my projects and work that I have been involved in over the years. I proudly present my latest frontend development accomplishments and endeavors, as well as the creative solutions I have found for unique challenges.
+              I am more than happy to answer any questions or explore potential collaboration opportunities you may have. Thank you for visiting, and I hope you find the inspiration and interest that I aimed to convey on my website.
+            </article>
+          </div>
+          <div className='greeting'>
+              <h5>Best regards,</h5>
+              <h5 className='signature'>Ferenc Bacsó</h5>
+          </div>
+          {/* <section className='iconStack'>
             <p>
               <span><BsGithub/></span>
               <span><BsLinkedin/></span>
             </p>
-          </section>
+          </section> */}
     </section>
   )
 }

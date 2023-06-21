@@ -1,3 +1,107 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  }
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .mindset{
+        margin: 0 auto;
+        color:#fff;
+        height:100vh;
+        width: 90%;
+    
+    } 
+    .mindset > h2{
+        margin:0 auto;
+        font-size: 5rem;
+        word-wrap: break-word;
+        -ms-word-wrap: break-word;
+        width:80%;
+        padding-bottom: 20px;
+        font-family: display_reg;
+    }   
+    #mindsetText{
+        margin: 0 auto;
+        width:70%;
+        max-width: 90ch;
+        height: 60%;
+        text-align: left;
+        line-height: 2rem;
+        font-family: codePro_reg;
+        font-size: 1.6rem;
+        padding-left: 20px;
+    }
+    #myImg{
+        width: 40%;
+        max-width:300px;
+        height: auto;
+        clip-path: circle(40%);
+        margin:0 auto;
+        object-fit: cover;
+    }
+    /* ----------------------- Responsive css ---------------------------------*/
+                    /*
+                    mobile device breakpoints:        
+                        iPhone 5S is an example of a Breakpoint 1 with 320px
+                        iPhone 6+ is an example of a Breakpoint 2 with 414px
+                        iPad Mini is an example of a Breakpoint 3 with 703px
+                        iPad Air is an example of a Breakpoint 4 with 768px
+                        Tablet styles (max-width: 768px)
+                        Mobile styles (max-width: 414px)
+                    */
+    /* @media screen and (min-device-width:1700px), screen and (max-device-width:2300px){
+        #mindsetText{
+            margin-left: 40rem;
+            width: 75ch;
+            height: 500px;
+            text-align: left;
+            line-height: 1.4rem;
+            font-size: 1.1rem;
+        }
+    }
+    @media screen and (min-device-width:900px), screen and (max-width:1400px){
+        #mindsetText{
+            margin-left: 40rem;
+            width: 75ch;
+            height: 500px;
+            text-align: left;
+            line-height: 1.4rem;
+            font-size: 1.1rem;
+        }
+    }
+    @media screen and (min-width:430px), screen and (max-width:900px){
+        body{
+            overflow-y: visible;
+        }
+        #myImg{
+            width:25%;
+            height: auto;
+            clip-path: circle(40%);
+            margin-left:10%;
+        }
+    
+        #mindsetText{
+            margin-left: 40%;
+            width: 45%;
+            height: 500px;
+            text-align: left;
+            line-height: 1.1rem;
+            font-size: 0.9rem;
+            
+        }
+    } */
+ }
+
+ /* Extra large devices (large desktops) */
+ /* No media query since the extra-large breakpoint has no upper bound on its width */
+
+
+
 .mindset{
     margin: 0 auto;
     color:#fff;
