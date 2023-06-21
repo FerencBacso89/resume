@@ -6,7 +6,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 function Welcome() {
   return (
-    <section className='mindset'>
+    <div className='mindset'>
         <img id="myImg" alt='Profile Picture' src={ProfilImg}></img>
         <div>
             <h2>Welcome to My portfolio site</h2>
@@ -28,7 +28,7 @@ function Welcome() {
               <span><BsLinkedin/></span>
             </p>
           </section> */}
-    </section>
+    </div>
   )
 }
 

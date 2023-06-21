@@ -50,11 +50,11 @@ const HandleSandbox=()=>{
 function Sidenav() {
   return (
     <div className="navbar">
+        <nav>
+        <div className='groupNav'>
         <Link className="logo" to="/">
               <img id='logo-img' title='Welcome page' src={logo} alt="logo"></img>
         </Link>
-  
-      <nav>
       <NavLink className={"link-elem"} to="/introduce">
           <TooltipIcon title="Introducion" arrow placement="right">
             <IconButton className="navElement">
@@ -76,8 +76,8 @@ function Sidenav() {
             </IconButton>
           </TooltipIcon>
         </NavLink>
-
-      <section className="bottomLinks"> 
+        </div>
+      <div className="groupNav"> 
 
         <NavLink className={"link-elem"} onClick={HandleGit}>
           <TooltipIcon title="Github" arrow placement="right">
@@ -100,7 +100,7 @@ function Sidenav() {
             </IconButton>
           </TooltipIcon>
         </NavLink>
-      </section>
+      </div>
       </nav>
     </div>
     

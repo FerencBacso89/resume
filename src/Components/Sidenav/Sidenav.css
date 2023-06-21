@@ -1,5 +1,6 @@
 .navbar{
-    position:absolute;
+    display: flex;
+    flex-direction: column;
     height:100vh;
     min-height: 800px;
     width:80px;
@@ -8,6 +9,7 @@
     transition: box-shadow ease-in-out 50s ;
     /* -webkit-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); /*hexa színkód: #25c7c7 */
    /* -moz-box-shadow: 5px 0px 5px 0px rgba(37, 199, 199 ,1); */
+    
 } 
 
 #logo-img{
@@ -48,4 +50,12 @@ margin-bottom: 1.5rem !important;
 .downNav:hover {
     color: #fff ;
     
+}
+.groupNav{
+    display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+}
+.groupNav:last-child{
+margin-bottom: 5vh;
 }

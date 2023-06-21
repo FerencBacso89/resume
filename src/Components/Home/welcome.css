@@ -10,10 +10,13 @@
  /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
     .mindset{
+        position: absolute;
+        display: block;
+        top:-7vh;
+        left:7vw;
+        width:90%;
         margin: 0 auto;
         color:#fff;
-        height:100vh;
-        width: 90%;
     
     } 
     .mindset > h2{
@@ -22,16 +25,16 @@
         word-wrap: break-word;
         -ms-word-wrap: break-word;
         width:80%;
-        padding-bottom: 20px;
+        padding-bottom: 2vh;
         font-family: display_reg;
     }   
     #mindsetText{
         margin: 0 auto;
-        width:70%;
-        max-width: 90ch;
-        height: 60%;
+        width:75%;
+        max-width: 70ch;
+        height: 50vh;
         text-align: left;
-        line-height: 2rem;
+        line-height: 2.4rem;
         font-family: codePro_reg;
         font-size: 1.6rem;
         padding-left: 20px;
@@ -105,9 +108,12 @@
 .mindset{
     margin: 0 auto;
     color:#fff;
-    height:100vh;
-    width: 90%;
+    /*! height:100vh; */
+    /*! width: 90%; */
 
+    position: absolute;
+    display: block;
+    top: -7vh;
 } 
 .mindset > h2{
     margin:0 auto;
