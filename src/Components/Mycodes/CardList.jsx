@@ -6,15 +6,16 @@ import React from 'react'
 function CardList() {
   return (
     <>
-     <h2>Projects & code snipets</h2>
-      <section className="cardList">
-        {cardData.map((code) => {
-          return (
-            <Codecard key={code.id} {...code} ></Codecard>
-          )//... spread oerator include all property
-        })}
+    <section className='codeContainer'>
+        <h2 className='codeTitle'>Projects & code snipets</h2>
+          <section className="cardList">
+            {cardData.map((code) => {
+              return (
+                <Codecard key={code.id} {...code} ></Codecard>
+              )//... spread oerator include all property
+            })}
+          </section>
       </section>
-
     </>
   )
 }
@@ -29,7 +30,7 @@ const clickHandler = () =>{
             <h4>{company}</h4>
             <h5>Used skills:</h5>
             <h5>{skills}</h5>
-            <a type="button"  onClick={clickHandler}>View on web</a>
+            <a className='link' type="button"  onClick={clickHandler}>View on web</a>
         </article>
         
     )

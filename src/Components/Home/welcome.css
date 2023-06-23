@@ -8,34 +8,34 @@
 @media (max-width: 991.98px) {  }
 
  /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
+@media (min-width:1200px) { 
     .mindset{
         position: absolute;
         display: block;
         top:-7vh;
-        left:7vw;
-        width:90%;
+        left:2vw;
+        width:100%;
         margin: 0 auto;
         color:#fff;
     
     } 
-    .mindset > h2{
+    .mainTitle{
         margin:0 auto;
-        font-size: 5rem;
         word-wrap: break-word;
         -ms-word-wrap: break-word;
         width:80%;
-        padding-bottom: 2vh;
+        margin-bottom: 6vh;
         font-family: display_reg;
+        font-size: 3.2rem;
     }   
     #mindsetText{
-        margin: 0 auto;
+        margin: 1vh auto;
         width:75%;
         max-width: 70ch;
         height: 50vh;
         text-align: left;
         line-height: 2.4rem;
-        font-family: codePro_reg;
+        font-family: display_reg;
         font-size: 1.6rem;
         padding-left: 20px;
     }
@@ -46,6 +46,17 @@
         clip-path: circle(40%);
         margin:0 auto;
         object-fit: cover;
+    }
+    .best{
+        font-family: sign ;
+        font-size: 3rem;
+        margin-top:5vh;
+        letter-spacing: 0.2rem;
+    }
+    #signature{
+        font-family: sign !important;
+        font-size: 4rem;
+        margin-left:2vw
     }
     /* ----------------------- Responsive css ---------------------------------*/
                     /*

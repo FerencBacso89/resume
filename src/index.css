@@ -8,16 +8,21 @@
 }
 @font-face {
   font-family: display_ita ;
-  src: url('./../assets/fonts/Display-Italic.ttf');
+  src: url('./assets/fonts/Display-Italic.ttf');
 }
 @font-face {
   font-family: display_reg ;
-  src: url('./../assets/fonts/Display-Regular.ttf');
+  src: url('./assets/fonts/Display-Regular.ttf');
 }
 @font-face {
   font-family: codePro_reg ;
   src: url('./assets/fonts/CodePro_reg.ttf');
 }
+@font-face {
+  font-family: sign ;
+  src: url('./assets/fonts/signature.ttf');
+}
+
 *{
   box-sizing: border-box;
   margin: 0 0;  

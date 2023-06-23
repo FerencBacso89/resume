@@ -77,7 +77,7 @@ function Sidenav() {
           </TooltipIcon>
         </NavLink>
         </div>
-      <div className="groupNav"> 
+      <div className="groupNav contact"> 
 
         <NavLink className={"link-elem"} onClick={HandleGit}>
           <TooltipIcon title="Github" arrow placement="right">

@@ -1,3 +1,9 @@
+.codeContainer{
+   position: absolute;
+   display: block;
+   top:0vh;
+
+}
 .cardList{
     width: 70vw;
     max-width: 1170px;
@@ -5,17 +11,17 @@
     margin:5rem auto;
     display: grid;
     gap:2rem;
-    
 
     border: 1px solid var(--navbarblue);
     margin:2vh auto;
     -webkit-box-shadow: 0px 10px 13px -7px #43eeee, 5px 5px 10px 5px #25C7C7; 
     box-shadow: 0px 10px 13px -7px #43eeee, 5px 5px 10px 5px #25C7C7;
 }
-h2{
+.codeTitle{
     font-family: display_reg;
-    font-size: 4.2rem;
+    font-size: 3.2rem;
     color:#fff;
+    margin: 3vh auto;
 }
 .card{
     background: linear-gradient( 120deg, var(--navbarblue) 20%, var(--primeColor));
@@ -52,7 +58,7 @@ h2{
     margin: 0.5rem auto;
     font-family: codePro_reg;
 }
-.card >a{
+.link{
     cursor: pointer;
     text-decoration: none;
     width: 70%;
@@ -67,8 +73,8 @@ h2{
     border: 1px solid whitesmoke;
     font-family: codePro_ita;
 }
-.card >a:hover{
-    background-color:beige ;
+.link:hover{
+    background-color:beige;
     color:var(--primeColor);
 }
 @media screen and (min-width:900px){

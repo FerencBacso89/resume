@@ -7,6 +7,7 @@ import Sidenav from './Components/Sidenav/Sidenav'
 import Introduce from './Components/Introduce/Introduce'
 import Educate from './Components/Educate/Educate'
 
+
 function App() {
   return (
     <>
