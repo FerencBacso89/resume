@@ -1,16 +1,4 @@
-// import React from 'react';
-// import "./educate.css";
-
-// function Educate() {
-//   return (
-//     <section className='eduStep container-fluid'>
-//       <h1 className='eduTitle'>Educate</h1>
-//       <div className='content'>
-
-//       </div>
-//     </section>
-//   )
-// }
+import './educate.css';
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Stepper from '@mui/material/Stepper';
@@ -58,6 +46,9 @@ export default function VerticalLinearStepper() {
   };
 
   return (
+    <>
+    <section className='eduStep container-fluid'>
+    <h1 className='eduTitle'>Education steps</h1>
     <Box sx={{ maxWidth: 400 }}>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
@@ -104,6 +95,7 @@ export default function VerticalLinearStepper() {
         </Paper>
       )}
     </Box>
+    </section>
+</>
   );
 }
-
