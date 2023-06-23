@@ -13,7 +13,7 @@
     gap:2rem;
 
     border: 1px solid var(--navbarblue);
-    margin:2vh auto;
+    margin:2vh 15vw;
     -webkit-box-shadow: 0px 10px 13px -7px #43eeee, 5px 5px 10px 5px #25C7C7; 
     box-shadow: 0px 10px 13px -7px #43eeee, 5px 5px 10px 5px #25C7C7;
 }
