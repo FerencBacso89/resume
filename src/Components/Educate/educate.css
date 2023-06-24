@@ -37,11 +37,12 @@
      .css-117w1su-MuiStepIcon-text{
         fill: var(--primeColor) !important;        
         font-family: display_reg !important;
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
      }
      /*nextstep numbericon*/
      .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
         color: var(--navbarShadow) !important;
+        font-size: 2.2rem !important;
      }
      /*nextStep text*/
      .css-1hv8oq8-MuiStepLabel-label{
@@ -68,5 +69,34 @@
         font-size: 1.3rem !important;
         color: #fff !important;
         letter-spacing: 0px !important;
+     }
+     /*Continue the next step button*/
+     .css-1f5ro5o-MuiButtonBase-root-MuiButton-root{
+        background-color: var(--navbarShadow) !important;
+        color: var(--primeColor) !important;
+        font-family: codePro_reg !important;
+        font-size: 1.4rem;
+     }
+     /*back the before step*/
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root{
+        background-color: var(--primeColor) !important;
+        color: var(--lightText) !important;
+        font-family: codePro_reg !important;
+        font-size: 1.4rem;
+     }
+     .css-18st3fs-MuiButtonBase-root-MuiButton-root:hover{
+        background-color: var(--lightText) !important;
+        color: var(--primeColor) !important;
+        font-family: codePro_reg !important;
+        font-weight: 500;
+     }
+     /*Finished => conclusion*/
+     .css-1di5t78-MuiPaper-root{
+        background-color: var(--primeColor) !important  ;
+        color: var(--primeColor) !important;
+     }
+     /*conclusion text*/
+     .css-ahj2mt-MuiTypography-root{
+        /* color: var(--primeColor) !important; */
      }
 }

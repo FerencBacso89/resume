@@ -40,7 +40,6 @@ export default function VerticalLinearStepper() {
   const handleBack = () => {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
-
   const handleReset = () => {
     setActiveStep(0);
   };
@@ -53,7 +52,7 @@ export default function VerticalLinearStepper() {
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
-            <StepLabel
+            <StepLabel 
               optional={
                 index === 2 ? (
                   <Typography variant="caption">Last step</Typography>
