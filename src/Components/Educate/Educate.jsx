@@ -47,9 +47,9 @@ export default function VerticalLinearStepper() {
 
   return (
     <>
+    <h1 className='eduTitle container-fluid'>Education steps</h1>
     <section className='eduStep container-fluid'>
-    <h1 className='eduTitle'>Education steps</h1>
-    <Box sx={{ maxWidth: 400 }}>
+    <Box sx={{ maxWidth: 800 }}>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
@@ -87,7 +87,7 @@ export default function VerticalLinearStepper() {
         ))}
       </Stepper>
       {activeStep === steps.length && (
-        <Paper square elevation={0} sx={{ p: 3 }}>
+        <Paper className='row' square elevation={0} sx={{ p: 3 }}>
           <Typography>All steps completed - you&apos;re finished</Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
             Reset

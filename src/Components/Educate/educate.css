@@ -9,8 +9,64 @@
 
  /* Large devices (desktops, less than 1200px) */
 @media (min-width:1200px) { 
-    .eduStep{
-    max-width: 70vw;
+    .eduTitle{
+        top: 7vh;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        font-family: display_reg;
+        font-size:3.2rem;
+        color: var(--lightText);
+        letter-spacing: 0.15rem;
+    }
+    .eduStep{        
+        position: absolute;
+        display: block;
+        top: 25vh;
+        max-width: 70vw;
+        left: 20vw;
 
     }
+    /*Stepper css*/
+     /*Active step icon */
+     .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+        font-size: 3rem;
+        color: var(--navbarblue) !important;
+     }
+    /*Stepper number*/
+     .css-117w1su-MuiStepIcon-text{
+        fill: var(--primeColor) !important;        
+        font-family: display_reg !important;
+        font-size: 1rem !important;
+     }
+     /*nextstep numbericon*/
+     .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+        color: var(--navbarShadow) !important;
+     }
+     /*nextStep text*/
+     .css-1hv8oq8-MuiStepLabel-label{
+        color: var(--lightText) !important;
+        font-size: 1.7rem !important;
+        font-family: display_reg !important;
+     }
+     /*complete stepper icon*/
+     .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+            color:var(--lightText) !important;
+            margin-left: 0.25vw;
+     }
+     /*Completed text*/
+     .css-1hv8oq8-MuiStepLabel-label.Mui-completed{
+        /* color: rgba(0, 0, 0, 0.87); */
+        color:var(--lightText);
+        font-size: 1.5rem;
+        font-family: display_ita !important;
+        font-weight: 500;
+     }
+     /*stepper inner text*/
+     .css-ahj2mt-MuiTypography-root{
+        font-family: codePro_reg !important;
+        font-size: 1.3rem !important;
+        color: #fff !important;
+        letter-spacing: 0px !important;
+     }
 }
