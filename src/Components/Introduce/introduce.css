@@ -1,12 +1,10 @@
-
-.shortIntro{
-    width: 90%;
-    height: 300px;
-    margin:0 8%;
+.goals{
+    margin: 0 auto;
 }
-.shortIntro > img{
-    margin:0 auto;
-    width: 90%;
-    max-width:1244px ;
-    opacity: 0.5;
+.introTitle{
+    position: absolute;
+    color: var(--lightText);
+    font-family: display_reg;
+    font-size: 3.2rem;
+    top:2vh;
 }

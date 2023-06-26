@@ -21,8 +21,22 @@ const steps = [
     description:
       'An ad group contains one or more ads which target a shared set of keywords.',
   },
-  {
-    label: 'Create an ad',
+    {
+    label: '2021',
+    description: `Try out different ad text to see what brings in the most customers,
+              and learn how to enhance your ads using features like ad extensions.
+              If you run into any problems with your ads, find out how to tell if
+              they're running and how to resolve approval issues.`,
+  },
+    {
+    label: 'Főigazgatói kitüntetés',
+    description: `Try out different ad text to see what brings in the most customers,
+              and learn how to enhance your ads using features like ad extensions.
+              If you run into any problems with your ads, find out how to tell if
+              they're running and how to resolve approval issues.`,
+  },
+    {
+    label: '2021-2023',
     description: `Try out different ad text to see what brings in the most customers,
               and learn how to enhance your ads using features like ad extensions.
               If you run into any problems with your ads, find out how to tell if
@@ -52,13 +66,7 @@ export default function VerticalLinearStepper() {
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
           <Step key={step.label}>
-            <StepLabel 
-              optional={
-                index === 2 ? (
-                  <Typography variant="caption">Last step</Typography>
-                ) : null
-              }
-            >
+            <StepLabel className='stepDiv'>
               {step.label}
             </StepLabel>
             <StepContent>
@@ -72,7 +80,7 @@ export default function VerticalLinearStepper() {
                   >
                     {index === steps.length - 1 ? 'Finish' : 'Continue'}
                   </Button>
-                  <Button
+                  <Button className='backBtns'
                     disabled={index === 0}
                     onClick={handleBack}
                     sx={{ mt: 1, mr: 1 }}

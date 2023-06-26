@@ -20,7 +20,7 @@
 .codeTitle{
     font-family: display_reg;
     font-size: 3.2rem;
-    color:#fff;
+    color:var(--lightText);
     margin: 3vh auto;
 }
 .card{
