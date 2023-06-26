@@ -8,3 +8,14 @@
     font-size: 3.2rem;
     top:2vh;
 }
+.headerimg{
+    position: absolute;
+    display: block;
+    top: 10vh;
+    margin: 0 auto;
+    width: 80%;
+    height: 35%;
+    left: 10vw;
+    border: 2px solid var(--lightText);
+    border-radius: 2rem;
+}
