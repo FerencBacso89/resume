@@ -9,6 +9,7 @@
 
  /* Large devices (desktops, less than 1200px) */
 @media (min-width:1200px) { 
+
     .mindset{
         position: absolute;
         display: block;
@@ -17,8 +18,18 @@
         width:100%;
         margin: 0 auto;
         color:#fff;
-    
+        line-height: 3rem !important;
     } 
+    .Textpos{
+        position: relative;
+        display: flex;       
+        width: 65%; 
+    }
+    .imgPos{
+        position: relative;
+        display:block;
+    }
+
     .mainTitle{
         margin:0 auto;
         word-wrap: break-word;
@@ -27,25 +38,26 @@
         margin-bottom: 6vh;
         font-family: display_reg;
         font-size: 3.2rem;
+        color: var(--lightText);        
     }   
     #mindsetText{
-        margin: 1vh auto;
-        width:75%;
-        max-width: 70ch;
+        margin: 10vh auto;
+        width: 100%;
+        max-width: 90ch;
         height: 50vh;
         text-align: left;
-        line-height: 2.4rem;
-        font-family: display_reg;
+        line-height: 2;
+        font-family: code_Pro;
         font-size: 1.6rem;
-        padding-left: 20px;
+        padding-left: 2rem;
     }
     #myImg{
-        width: 40%;
-        max-width:300px;
+        width: 90%;
         height: auto;
         clip-path: circle(40%);
         margin:0 auto;
         object-fit: cover;
+        margin-left: 5vw;
     }
     .best{
         font-family: sign ;
@@ -53,169 +65,5 @@
         margin-top:5vh;
         letter-spacing: 0.2rem;
     }
-    #signature{
-        font-family: sign !important;
-        font-size: 4rem;
-        margin-left:2vw
-    }
-    /* ----------------------- Responsive css ---------------------------------*/
-                    /*
-                    mobile device breakpoints:        
-                        iPhone 5S is an example of a Breakpoint 1 with 320px
-                        iPhone 6+ is an example of a Breakpoint 2 with 414px
-                        iPad Mini is an example of a Breakpoint 3 with 703px
-                        iPad Air is an example of a Breakpoint 4 with 768px
-                        Tablet styles (max-width: 768px)
-                        Mobile styles (max-width: 414px)
-                    */
-    /* @media screen and (min-device-width:1700px), screen and (max-device-width:2300px){
-        #mindsetText{
-            margin-left: 40rem;
-            width: 75ch;
-            height: 500px;
-            text-align: left;
-            line-height: 1.4rem;
-            font-size: 1.1rem;
-        }
-    }
-    @media screen and (min-device-width:900px), screen and (max-width:1400px){
-        #mindsetText{
-            margin-left: 40rem;
-            width: 75ch;
-            height: 500px;
-            text-align: left;
-            line-height: 1.4rem;
-            font-size: 1.1rem;
-        }
-    }
-    @media screen and (min-width:430px), screen and (max-width:900px){
-        body{
-            overflow-y: visible;
-        }
-        #myImg{
-            width:25%;
-            height: auto;
-            clip-path: circle(40%);
-            margin-left:10%;
-        }
-    
-        #mindsetText{
-            margin-left: 40%;
-            width: 45%;
-            height: 500px;
-            text-align: left;
-            line-height: 1.1rem;
-            font-size: 0.9rem;
-            
-        }
-    } */
- }
 
- /* Extra large devices (large desktops) */
- /* No media query since the extra-large breakpoint has no upper bound on its width */
-
-
-
-.mindset{
-    margin: 0 auto;
-    color:#fff;
-    /*! height:100vh; */
-    /*! width: 90%; */
-
-    position: absolute;
-    display: block;
-    top: -7vh;
-} 
-.mindset > h2{
-    margin:0 auto;
-    font-size: 5rem;
-    word-wrap: break-word;
-    -ms-word-wrap: break-word;
-    width:80%;
-    padding-bottom: 20px;
-    font-family: display_reg;
 }
-.iconStack{
-    margin: 0 auto;
-    width:60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-}
-.iconStack> span{
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-    margin:0 auto;
-}
-#mindsetText{
-    margin: 0 auto;
-    width:70%;
-    max-width: 90ch;
-    height: 60%;
-    text-align: left;
-    line-height: 2rem;
-    font-family: codePro_reg;
-    font-size: 1.6rem;
-    padding-left: 20px;
-}
-#myImg{
-    width: 40%;
-    max-width:300px;
-    height: auto;
-    clip-path: circle(40%);
-    margin:0 auto;
-    object-fit: cover;
-}
-/* ----------------------- Responsive css ---------------------------------*/
-                /*
-                mobile device breakpoints:        
-                    iPhone 5S is an example of a Breakpoint 1 with 320px
-                    iPhone 6+ is an example of a Breakpoint 2 with 414px
-                    iPad Mini is an example of a Breakpoint 3 with 703px
-                    iPad Air is an example of a Breakpoint 4 with 768px
-                    Tablet styles (max-width: 768px)
-                    Mobile styles (max-width: 414px)
-                */
-/* @media screen and (min-device-width:1700px), screen and (max-device-width:2300px){
-    #mindsetText{
-        margin-left: 40rem;
-        width: 75ch;
-        height: 500px;
-        text-align: left;
-        line-height: 1.4rem;
-        font-size: 1.1rem;
-    }
-}
-@media screen and (min-device-width:900px), screen and (max-width:1400px){
-    #mindsetText{
-        margin-left: 40rem;
-        width: 75ch;
-        height: 500px;
-        text-align: left;
-        line-height: 1.4rem;
-        font-size: 1.1rem;
-    }
-}
-@media screen and (min-width:430px), screen and (max-width:900px){
-    body{
-        overflow-y: visible;
-    }
-    #myImg{
-        width:25%;
-        height: auto;
-        clip-path: circle(40%);
-        margin-left:10%;
-    }
-
-    #mindsetText{
-        margin-left: 40%;
-        width: 45%;
-        height: 500px;
-        text-align: left;
-        line-height: 1.1rem;
-        font-size: 0.9rem;
-        
-    }
-} */
