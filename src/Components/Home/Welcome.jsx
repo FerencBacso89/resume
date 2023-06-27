@@ -18,9 +18,6 @@ function Welcome() {
               I am more than happy to answer any questions or explore potential collaboration opportunities you may have. Thank you for visiting, and I hope you find the inspiration and interest that I aimed to convey on my website.
             </article>
           </div>
-          <div className='greeting row'>
-              <h5 className='best'>Best regards,<span id='signature' >Ferenc Bacsó</span></h5>
-          </div>
     </div>
   )
 }

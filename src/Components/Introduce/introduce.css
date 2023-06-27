@@ -6,7 +6,7 @@
     color: var(--lightText);
     font-family: display_reg;
     font-size: 3.2rem;
-    top:2vh;
+    top:5vh;
 }
 .headerimg{
     position: absolute;
@@ -18,4 +18,12 @@
     left: 10vw;
     border: 2px solid var(--lightText);
     border-radius: 2rem;
+}
+.pDsubTitle{
+    position: absolute;
+    top: 20vh;
+    margin: 0 auto;
+    display: inline;
+    color: var(--lightText);
+    font-family: display_reg;
 }

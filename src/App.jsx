@@ -1,7 +1,6 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 import Welcome from './Components/Home/Welcome'
-import Layout from './Components/Layout/Layout'
 import Mycode from './Components/Mycodes/Mycode'
 import Sidenav from './Components/Sidenav/Sidenav'
 import Introduce from './Components/Introduce/Introduce'

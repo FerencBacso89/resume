@@ -70,7 +70,7 @@ export default function VerticalLinearStepper() {
               {step.label}
             </StepLabel>
             <StepContent>
-              <Typography>{step.description}</Typography>
+              <Typography className='descript'>{step.description}</Typography>
               <Box sx={{ mb: 2 }}>
                 <div>
                   <Button

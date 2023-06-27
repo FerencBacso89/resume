@@ -26,6 +26,7 @@ object-fit: cover;
     height:50px;
 
  }
+ 
 .navElement {
     font-size: 2.5rem !important;
     margin-bottom:3.5rem !important;
@@ -61,4 +62,8 @@ margin-bottom: 1.5rem !important;
 }
 .groupNav:last-child{
 margin-bottom: 5vh;
+}
+.link-elem.active .navElement{
+    background-color: var(--lightText) !important;
+    color: var(--primeColor) !important;
 }

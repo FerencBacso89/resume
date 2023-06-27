@@ -11,17 +11,13 @@
     margin:5rem auto;
     display: grid;
     gap:2rem;
-
-    border: 1px solid var(--navbarblue);
     margin:2vh 15vw;
-    -webkit-box-shadow: 0px 10px 13px -7px #43eeee, 5px 5px 10px 5px #25C7C7; 
-    box-shadow: 0px 10px 13px -7px #43eeee, 5px 5px 10px 5px #25C7C7;
 }
 .codeTitle{
     font-family: display_reg;
     font-size: 3.2rem;
     color:var(--lightText);
-    margin: 3vh auto;
+    margin: 5vh auto;
 }
 .card{
     background: linear-gradient( 120deg, var(--navbarblue) 20%, var(--primeColor));

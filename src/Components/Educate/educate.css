@@ -10,7 +10,7 @@
  /* Large devices (desktops, less than 1200px) */
 @media (min-width:1200px) { 
     .eduTitle{
-        top: 7vh;
+        top: 5vh;
         margin: 0 auto;
         position: absolute;
         text-align: center;
@@ -107,4 +107,9 @@
      .css-18st3fs-MuiButtonBase-root-MuiButton-root.Mui-disabled{
          display:none;
      } 
+     /*Description of step*/
+     .descript{
+      text-align: left !important;
+      margin-left: 10px !important;
+     }
 }
