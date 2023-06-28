@@ -19,6 +19,14 @@ clip-path: circle(50%);
 margin: 20px 1.4rem;
 aspect-ratio: 4/3;
 object-fit: cover;
+background-color: #fff;
+}
+#logo-img:hover{
+    transition: background-color 1s ease-in ;
+    background-color: var(--lightText);
+}
+.logo:active #logo-img{
+    background-color: var(--lightText);
 }
  button{
      position: absolute;

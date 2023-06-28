@@ -27,3 +27,7 @@
     color: var(--lightText);
     font-family: display_reg;
 }
+.flag_size{
+    width:2.5rem;
+    height: 1.3rem;
+}

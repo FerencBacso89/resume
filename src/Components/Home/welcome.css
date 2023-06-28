@@ -47,17 +47,17 @@
         height: 50vh;
         text-align: left;
         line-height: 2;
-        font-family: code_Pro;
+        font-family: codePro_reg;
         font-size: 1.6rem;
-        padding-left: 2rem;
+        padding-left: 4rem;
     }
     #myImg{
         width: 90%;
         height: auto;
         clip-path: circle(40%);
-        margin:0 auto;
+        margin:15vh auto;
         object-fit: cover;
-        margin-left: 5vw;
+        margin-left: 7vw;
     }
     .best{
         font-family: sign ;

@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Link, NavLink } from "react-router-dom"
-import logo from "../../assets/img/gooseflight_brand.png"
+import logo from "../../assets/img/gooseflight_brand.svg"
 import "../Sidenav/sidenav.css"
 
 /*Material UI & Icons */
@@ -52,7 +52,7 @@ function Sidenav() {
     <div className="navbar">
         <nav>
         <div className='groupNav'>
-        <Link className="logo" to="/">
+        <Link className="logo" activeClassName="active" to="/">
               <img id='logo-img' title='Welcome page' src={logo} alt="logo"></img>
         </Link>
       <NavLink className={"link-elem"} activeClassName="active" to="/introduce">
