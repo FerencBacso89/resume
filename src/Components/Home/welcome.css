@@ -34,6 +34,7 @@
         margin:0 auto;
         word-wrap: break-word;
         -ms-word-wrap: break-word;
+        text-align: center;
         width:80%;
         margin-bottom: 6vh;
         font-family: display_reg;

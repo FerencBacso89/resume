@@ -14,7 +14,8 @@ import Hun from "../../assets/img/hu.svg"
 const calcAge=() =>{
   const theBigday= new Date('1989-04-02');
   const currDate= new Date();
-  const age = currDate.getFullYear - theBigday.getFullYear
+  const age = currDate.getFullYear - theBigday.getFullYear;
+  alert(age);
   return age;
 }
 const card = (
@@ -25,8 +26,8 @@ const card = (
     </Typography>
     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
       Nationality: Hun <img className='flag_size' src={Hun} alt="Hungarian" />
-      I'm now <span>{age}</span> years old.
     </Typography>
+    <Typography variant='h5' component="p"> I'm now <span>{calcAge()}</span> years old. </Typography>
     </CardContent>
 </>); 
 function Introduce() {
@@ -41,8 +42,20 @@ function Introduce() {
     <section className='perdet'>
       <h2 className='pDsubTitle'>Personal Details</h2>
       <Box sx={{ minWidth: 275 }}>
-      <Card variant="outlined">{card}</Card>
-    </Box>
+        <Card variant="outlined">
+          <CardContent>
+            <Typography variant="h4" component="div">
+              Personel information
+            </Typography>
+            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+              Nationality: Hun <img className='flag_size' src={Hun} alt="Hungarian" />
+            </Typography>
+            <Typography variant='h5' component="div">
+              I'm now <span>{age.toString()}</span> years old.
+            </Typography>
+          </CardContent>
+        </Card>
+      </Box>
     
     </section>
         
