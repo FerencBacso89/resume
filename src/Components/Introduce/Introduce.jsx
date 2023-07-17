@@ -15,49 +15,53 @@ const calcAge=() =>{
   const theBigday= new Date('1989-04-02');
   const currDate= new Date();
   const age = currDate.getFullYear - theBigday.getFullYear;
-  alert(age);
   return age;
 }
-const card = (
-  <>
-    <CardContent>
-    <Typography variant="h4" component="div">
-    Personel information
-    </Typography>
-    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-      Nationality: Hun <img className='flag_size' src={Hun} alt="Hungarian" />
-    </Typography>
-    <Typography variant='h5' component="p"> I'm now <span>{calcAge()}</span> years old. </Typography>
-    </CardContent>
-</>); 
 function Introduce() {
   /*dynamichnadel how many years old */
   const [age, setAge] = React.useState(calcAge());
   return (
     <>
-    <section className="goals">
-        {/* <img className='headerimg' src={Headimg} alt='Ferenc Bacsó Front-end Developer'></img> */}
+    <section className="goals">       
       <div className='container-fluid introTitle'><h1>Curriculum Vitae (CV)</h1></div>      
     </section>
-    <section className='perdet'>
-      <h2 className='pDsubTitle'>Personal Details</h2>
-      <Box sx={{ minWidth: 275 }}>
-        <Card variant="outlined">
-          <CardContent>
-            <Typography variant="h4" component="div">
-              Personel information
-            </Typography>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-              Nationality: Hun <img className='flag_size' src={Hun} alt="Hungarian" />
-            </Typography>
-            <Typography variant='h5' component="div">
-              I'm now <span>{age.toString()}</span> years old.
-            </Typography>
-          </CardContent>
-        </Card>
-      </Box>
-    
+    <section className='infoCards container-fluid row'>
+            <div class="card-deck row">
+              <div class="card-info">              
+                <div class="card-body">
+                  <h2 class="card-title">General information</h2>
+                 <section className='info'>
+                        <div className='general'>
+                              <p>My Name is <b>Ferenc Bacso</b></p>
+                              <span className='row'>Nationality: Hungary <img src={Hun}  alt='Hungarian National flag'></img></span>
+                        </div>
+                 </section>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card-info">                
+                <div class="card-body">
+                  <h2 class="card-title">Card title</h2>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card-info">               
+                <div class="card-body">
+                  <h2 class="card-title">Card title</h2>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+        </div>
     </section>
+   
         
     </>
   )
