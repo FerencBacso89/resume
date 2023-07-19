@@ -14,11 +14,11 @@ import Hun from "../../assets/img/hu.svg"
 const calcAge=() =>{
   const theBigday= new Date('1989-04-02');
   const currDate= new Date();
-  const age = currDate.getFullYear - theBigday.getFullYear;
+  const age = currDate.getFullYear() - theBigday.getFullYear();
   return age;
 }
 function Introduce() {
-  /*dynamichnadel how many years old */
+  /*dynamic hanadle how many years old */
   const [age, setAge] = React.useState(calcAge());
   return (
     <>
@@ -32,36 +32,51 @@ function Introduce() {
                   <h2 class="card-title">General information</h2>
                  <section className='info'>
                         <div className='general'>
-                              <p>My Name is <b>Ferenc Bacso</b></p>
+                              <span className='row'>Name: Ferenc Bacso</span>
                               <span className='row'>Nationality: Hungary <img src={Hun}  alt='Hungarian National flag'></img></span>
-                        </div>
+                              <span className='row'>How old am I ?: Now I am {calcAge()} years old.</span>
+                              <span className='row'>When i got my first job?: In 2019.</span>
+                              <span className='row'>What are my hobbies?: My hobbies for example Birdwatching and mountain hike</span>
+                        </div>                       
                  </section>
+                 
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Last updated 3 mins ago</small>
                 </div>
               </div>
-              <div class="card-info">                
-                <div class="card-body">
-                  <h2 class="card-title">Card title</h2>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-              <div class="card-info">               
-                <div class="card-body">
-                  <h2 class="card-title">Card title</h2>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-        </div>
+              
+            </div>
+        <section className='infogrid container-fluid'>
+              <div class="card-row row">
+                        <div class="cardDeep col-4">              
+                          <div class="card-body">
+                            <h2 class="card-title">Generation</h2>
+                                  <div className='gal'>
+                                        <span className='row'>Na</span>
+                                        <span className='row'>Nationality: Hungary </span>
+                                        <span className='row'>How old am I ?: Now I am {calcAge()} years old.</span>
+                                        <span className='row'>When i got my first job?: In 2019.</span>
+                                        <span className='row'>What are my hobbies?: My hobbies for example Birdwatching and mountain hike</span>
+                                  </div>                       
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="cardDeep col-4">                
+                          <div class="card-body">
+                            <h2 class="card-title">Card title</h2>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                  </div>
+          </section>
     </section>
-   
+    
         
     </>
   )

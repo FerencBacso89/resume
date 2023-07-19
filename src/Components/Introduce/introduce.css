@@ -41,29 +41,52 @@
     top:20%;
 }
 .general{
+    margin-top: 1vh;
     font-size: 1.8rem;
     font-family: title;
 }
+.general> span{
+    margin-left: 10px;
+}
 .general span>img{
     width: 3vw;
-    height: 5vh;
-    top: -1.2vh;
-    margin: 1rem;
 }
 .card-title{
     font-family: codePro_reg;
     font-size: 2.1rem;
     font-weight: 600;
-    text-decoration: underline overline var(--lightText);
+    /* text-decoration: underline overline var(--lightText); */
+    margin-top: 2vh;
 }
 .card-info{
     background:  var(--primeColor);
 border: 1px solid var(--lightText);
 border-radius: 20px;
 margin: 0.5rem auto;
-max-width: 300px;
+max-width: 600px;
 color: beige;
 word-wrap: break-word;
 overflow: hidden;
+}
+/* More info in grid layout  */
+.infogrid{
+    top:50vh;
+    display:flex ;
+    justify-content: space-between;
+}
+.card-row{
 
+}
+.cardDeep{
+    background:  var(--primeColor);
+    border: 1px solid var(--lightText);
+    border-radius: 20px;
+    margin: 0.5rem auto;
+    max-width: 400px;
+    color: beige;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-left: 7vw;
+    position: absolute;
+    top:45vh;
 }
