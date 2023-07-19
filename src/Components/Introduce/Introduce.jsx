@@ -51,7 +51,7 @@ function Introduce() {
               <div class="card-row row">
                         <div class="cardDeep col-4">              
                           <div class="card-body">
-                            <h2 class="card-title">Generation</h2>
+                            <h2 class="card-title">skills & education</h2>
                                   <div className='gal'>
                                         <span className='row'>Na</span>
                                         <span className='row'>Nationality: Hungary </span>
@@ -66,7 +66,7 @@ function Introduce() {
                         </div>
                         <div class="cardDeep col-4">                
                           <div class="card-body">
-                            <h2 class="card-title">Card title</h2>
+                            <h2 class="card-title">Proud myself</h2>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                           </div>
                           <div class="card-footer">
