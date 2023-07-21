@@ -29,14 +29,14 @@ function Introduce() {
             <div class="card-deck row">
               <div class="card-info">              
                 <div class="card-body">
-                  <h2 class="card-title">General information</h2>
+                  <h2 class="card-title">Personal details</h2>
                  <section className='info'>
                         <div className='general'>
                               <span className='row'>Name: Ferenc Bacso</span>
                               <span className='row'>Nationality: Hungary <img src={Hun}  alt='Hungarian National flag'></img></span>
-                              <span className='row'>How old am I ?: Now I am {calcAge()} years old.</span>
-                              <span className='row'>When i got my first job?: In 2019.</span>
-                              <span className='row'>What are my hobbies?: My hobbies for example Birdwatching and mountain hike</span>
+                              <span className='row'>How old am I ? Now I am {calcAge()} years old.</span>
+                              <span className='row'>When i got my first job? In 2019.</span>
+                              <span className='row'>What are my hobbies? My hobbies for example Birdwatching and mountain hike</span>
                         </div>                       
                  </section>
                  
@@ -47,24 +47,28 @@ function Introduce() {
               </div>
               
             </div>
-        <section className='infogrid container-fluid'>
+    </section>
+        <section className='skill container-fluid'>
               <div class="card-row row">
-                        <div class="cardDeep col-4">              
+                <div className='col-6 '>
+                        <div class="cardDeep">              
                           <div class="card-body">
                             <h2 class="card-title">skills & education</h2>
                                   <div className='gal'>
                                         <span className='row'>Na</span>
                                         <span className='row'>Nationality: Hungary </span>
-                                        <span className='row'>How old am I ?: Now I am {calcAge()} years old.</span>
-                                        <span className='row'>When i got my first job?: In 2019.</span>
-                                        <span className='row'>What are my hobbies?: My hobbies for example Birdwatching and mountain hike</span>
+                                        <span className='row'>How old am I ? Now I am {calcAge()} years old.</span>
+                                        <span className='row'>When i got my first job? In 2019.</span>
+                                        <span className='row'>What are my hobbies? My hobbies for example Birdwatching and mountain hike</span>
                                   </div>                       
                           </div>
                           <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                           </div>
                         </div>
-                        <div class="cardDeep col-4">                
+                </div>
+                <div className='col-6'>
+                        <div class="cardDeep">                
                           <div class="card-body">
                             <h2 class="card-title">Proud myself</h2>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -73,9 +77,9 @@ function Introduce() {
                             <small class="text-muted">Last updated 3 mins ago</small>
                           </div>
                         </div>
-                  </div>
+                </div>
+            </div>
           </section>
-    </section>
     
         
     </>

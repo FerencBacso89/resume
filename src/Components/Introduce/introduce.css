@@ -33,7 +33,7 @@
 }
 .card-deck{
     position: absolute;
-    top:0%;
+    top:15%;
 }
 .infoCards{
     display: flex;
@@ -58,6 +58,7 @@
     /* text-decoration: underline overline var(--lightText); */
     margin-top: 2vh;
 }
+/*personal details*/
 .card-info{
     background:  var(--primeColor);
 border: 1px solid var(--lightText);
@@ -69,24 +70,28 @@ word-wrap: break-word;
 overflow: hidden;
 }
 /* More info in grid layout  */
-.infogrid{
-    top:50vh;
-    display:flex ;
-    justify-content: space-between;
-}
-.card-row{
-
-}
 .cardDeep{
     background:  var(--primeColor);
     border: 1px solid var(--lightText);
     border-radius: 20px;
     margin: 0.5rem auto;
-    max-width: 400px;
+    /* width: fit-content; */
+    max-width: 43vw;
+    margin:0 auto;
     color: beige;
     word-wrap: break-word;
     overflow: hidden;
-    margin-left: 7vw;
+    margin-left: 3vw;
     position: absolute;
-    top:45vh;
+    top:58vh;
 }
+.cardDeep:first-child{
+    margin-left: 90px;
+}
+/* .dbcont{
+display: flex;
+justify-content: flex-start;
+top: 35vh;
+position: absolute;
+left: 2vw;
+} */
