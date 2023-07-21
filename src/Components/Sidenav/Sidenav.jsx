@@ -55,13 +55,13 @@ function Sidenav() {
         <Link className="logo" to="/">
               <img id='logo-img' title='Welcome page' src={logo} alt="logo"></img>
         </Link>
-      <NavLink className={"link-elem"} to="/introduce">
+      {/* <NavLink className={"link-elem"} to="/introduce">
           <TooltipIcon title="Introducion" arrow placement="right">
             <IconButton className="navElement">
               <BsPersonLinesFill />
             </IconButton>
           </TooltipIcon>
-        </NavLink>
+        </NavLink> */}
         <NavLink className={"link-elem"} to="/mycode">
           <TooltipIcon title="My codes" arrow placement="right">
             <IconButton className="navElement">
