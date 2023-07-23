@@ -14,6 +14,8 @@ import {
   BsCardChecklist,
   BsPersonLinesFill,
   BsJournalCode,
+  BsMortarboardFill,
+  BsPersonBoundingBox,
 } from "react-icons/bs";
 import {SiCodesandbox} from "react-icons/si"
 
@@ -55,13 +57,13 @@ function Sidenav() {
         <Link className="logo" to="/">
               <img id='logo-img' title='Welcome page' src={logo} alt="logo"></img>
         </Link>
-      <NavLink className={"link-elem"} to="/introduce">
-          <TooltipIcon title="Introducion" arrow placement="right">
+        <NavLink className={"link-elem"} to="/education">
+          <TooltipIcon title="Education" arrow placement="right">
             <IconButton className="navElement">
-              <BsPersonLinesFill />
+              <BsMortarboardFill />
             </IconButton>
           </TooltipIcon>
-        </NavLink>
+        </NavLink>      
         <NavLink className={"link-elem"} to="/mycode">
           <TooltipIcon title="My codes" arrow placement="right">
             <IconButton className="navElement">
@@ -69,10 +71,10 @@ function Sidenav() {
             </IconButton>
           </TooltipIcon>
         </NavLink>
-        <NavLink className={"link-elem"} to="/education">
-          <TooltipIcon title="Education" arrow placement="right">
+        <NavLink className={"link-elem"} to="/introduce">
+          <TooltipIcon title="Introducion" arrow placement="right">
             <IconButton className="navElement">
-              <BsCardChecklist />
+              <BsPersonBoundingBox />
             </IconButton>
           </TooltipIcon>
         </NavLink>
