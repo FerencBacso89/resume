@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 
 const steps = [
   {
-    label: 'Select campaign settings',
+    label: 'Self-taught learning has begun',
     description: `For each ad campaign that you create, you can control how much
               you're willing to spend on clicks and conversions, which networks
               and geographical locations you want your ads to show on, and more.`,

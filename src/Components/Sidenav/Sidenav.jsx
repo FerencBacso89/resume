@@ -71,8 +71,8 @@ function Sidenav() {
             </IconButton>
           </TooltipIcon>
         </NavLink>
-        <NavLink className={"link-elem"} to="/introduce">
-          <TooltipIcon title="Introducion" arrow placement="right">
+        <NavLink className={"link-elem"} to="/contact">
+          <TooltipIcon title="Contact me" arrow placement="right">
             <IconButton className="navElement">
               <BsPersonBoundingBox />
             </IconButton>
