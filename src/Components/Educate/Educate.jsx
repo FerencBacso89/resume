@@ -8,7 +8,8 @@ import StepContent from '@mui/material/StepContent';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-
+import Hunflag from '../../assets/img/hu.svg';
+import Enflag from '../../assets/img/gb.svg';
 const steps = [
   {
     label: 'Self-taught learning has begun',
@@ -17,12 +18,12 @@ const steps = [
               and geographical locations you want your ads to show on, and more.`,
   },
   {
-    label: 'Create an ad group',
+    label: 'Got job as a Programmer',
     description:
       'An ad group contains one or more ads which target a shared set of keywords.',
   },
     {
-    label: '2021',
+    label: '2019-2022',  //covid, corporate training(Masterfield trainingcenter)
     description: `Try out different ad text to see what brings in the most customers,
               and learn how to enhance your ads using features like ad extensions.
               If you run into any problems with your ads, find out how to tell if
@@ -36,7 +37,7 @@ const steps = [
               they're running and how to resolve approval issues.`,
   },
     {
-    label: '2021-2023',
+    label: 'future plans and development',  //became a fullstack proggramer, angular typescript, js high level skills -> nodeJS / .netcore
     description: `Try out different ad text to see what brings in the most customers,
               and learn how to enhance your ads using features like ad extensions.
               If you run into any problems with your ads, find out how to tell if
@@ -57,6 +58,9 @@ export default function VerticalLinearStepper() {
   const handleReset = () => {
     setActiveStep(0);
   };
+  const getCV =()=>{
+
+  }
 
   return (
     <>
@@ -95,9 +99,16 @@ export default function VerticalLinearStepper() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper className='row' square elevation={0} sx={{ p: 3 }}>
-          <Typography>All steps completed - you&apos;re finished</Typography>
+          <Typography>This is my journey - but every day writing my history.</Typography>
           <Button onClick={handleReset} sx={{ mt: 1, mr: 1 }}>
             Reset
+          </Button>
+          <Typography>If you would like to read more about me, click the button below for my resume</Typography>
+          <Button onClick={getCV} sx={{ mt: 1, mr: 1 }}>
+            Download my CV <img className='cvFlag' src={Hunflag}></img> version
+          </Button>          
+          <Button onClick={getCV} sx={{ mt: 1, mr: 1 }}>
+            Download my CV <img className='cvFlag' src={Enflag}></img> version
           </Button>
         </Paper>
       )}

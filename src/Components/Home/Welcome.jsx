@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilImg from "../../assets/img/world_profile.png";
+import ProfilImg from "../../assets/img/profile.jpg";
 import './welcome.css';
 //import './Components/Home/welcome.css';
 
