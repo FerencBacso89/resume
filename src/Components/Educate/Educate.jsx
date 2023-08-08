@@ -59,7 +59,13 @@ export default function VerticalLinearStepper() {
     setActiveStep(0);
   };
   const getCV =()=>{
-
+    const link = document.createElement('a');
+    link.href = '../src/assets/CV/Bacsó-Ferenc_CV-HUN.pdf'; // Az elérési út a PDF fájlhoz
+    link.download = 'Bacsó-Ferenc_CV-HUN.pdf'; // A letöltött fájl neve
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   return (
