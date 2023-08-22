@@ -17,7 +17,7 @@ import {
   BsMortarboardFill,
   BsPersonBoundingBox,
 } from "react-icons/bs";
-import {SiCodesandbox} from "react-icons/si"
+import {SiCodesandbox, SiGithub, SiLinkedin} from "react-icons/si"
 
 import { positions } from '@mui/system';
 import { LinkedIn } from '@mui/icons-material'
