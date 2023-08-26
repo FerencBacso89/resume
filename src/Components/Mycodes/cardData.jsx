@@ -14,19 +14,19 @@ export const cardData = [
       id:2,
       img:defaultImg,
       company:'pdf invoice',
-      skills:'React, js, Material UI, css',
+      skills:'html, js, css',
       category:"code snipet",
-      description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
-      url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
+      description:"Generate a pdf file from html page. You can add your own data. This seems like an invoice of services",
+      url:'https://makepdf.netlify.app/'
     },
     {
       id:3,
       img:defaultImg,
-      company:'pdf invoice',
-      skills:'React, js, Material UI, css',
+      company:'Calculate Area & perimeter',
+      skills:'html, js, css',
       category:"code snipet",
-      description:"weouofcbowhbchb  wcbw wn  eflwbe wefl wefewfjwefw ewf wefew fwe fwef uwaga",
-      url:'https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method'
+      description:"calculate shapes area and perimeter, afther then set up the values",
+      url:'https://area-calc.netlify.app/'
     },
     {
       id:4,
