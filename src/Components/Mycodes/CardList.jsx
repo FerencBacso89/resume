@@ -19,7 +19,7 @@ function CardList() {
     </>
   )
 }
-const Codecard=({img, company, skills, category, description, url})=>{
+const Codecard=({img, project, skills, category, description, url})=>{
   //click event handler
 const clickHandler = () =>{
     window.open(url,'_blank');
@@ -27,9 +27,9 @@ const clickHandler = () =>{
     return(
         <article className='card'>
             <img src={img} alt=''></img>
-            <h4>{company}</h4>
-            <h5>Used skills:</h5>
-            <h5>{skills}</h5>
+            <h4>{project}</h4>
+            <h5>Description:</h5>
+            <h5>{description}</h5>
             <a className='link' type="button"  onClick={clickHandler}>View on web</a>
         </article>
         
