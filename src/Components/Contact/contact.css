@@ -43,10 +43,10 @@
 }
 .sideProfile{
     position: absolute;
-    width: 43vw;
-    top: -15vh;
-    clip-path: circle(47%);
-    right: 1vw;
+    width: 25vw;
+    top: 20vh;
+    clip-path: circle(60%);
+    right: 10vw;
 }
 .Contactico{
     width: 8rem;
