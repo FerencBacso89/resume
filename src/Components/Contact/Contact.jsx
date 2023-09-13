@@ -6,7 +6,7 @@ import Button from '@mui/material/Button';
 import at from '../../assets/at_symbol.svg'
 import Hunflag from'../../assets/img/hu.svg'
 import Enflag from'../../assets/img/gb.svg'
-import profil from '../../assets/img/profile2.jpg'
+import profil from '../../assets/img/profile3.jpg'
 
 const HandleLinkedin=()=>{
   window.open("https://www.linkedin.com/in/devbacso/","_blank")
