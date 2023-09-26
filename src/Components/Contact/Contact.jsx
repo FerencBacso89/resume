@@ -53,12 +53,7 @@ function Contact() {
           <Button id='engCV' className='CVbtn' onClick={getCV} sx={{ mt: 1, mr: 1 }}>
             Download my CV <img className='cvFlag' src={Enflag}></img> version
           </Button>
-          </p></div>
-          {/* <img onClick={getCV} className='flag' src={Hun}></img> <img className='flag' src={Gb}></img> */}
-          {/* <span className='cline col'> visit my Github : <GitHub></GitHub> </span>
-           <span className='cline col'> visit my Sandbox for some snipets : <SiCodesandbox></SiCodesandbox> </span>
-           <span className='cline col'> visit my LinkedIn : <LinkedIn></LinkedIn> </span> */}
-           {/* <span className='cline col'> Download my CV :  </span> */}
+          </p></div>        
     </section>
     </div> 
     </>

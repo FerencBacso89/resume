@@ -60,3 +60,14 @@
 .CVbtn{
     width: 250px;
 }
+#hunCV, #engCV{
+  background-color: var(--primeColor);
+  color: var(--lightText);
+  font-family: codePro_reg !important
+}
+#hunCV:hover, #engCV:hover{
+    transition: background-color 250ms ease;
+    background-color: var(--lightText) !important;
+    color: var(--primeColor) !important;    
+    font-weight: 500;
+}

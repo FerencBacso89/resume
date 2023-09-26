@@ -10,6 +10,9 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Hunflag from '../../assets/img/hu.svg';
 import Enflag from '../../assets/img/gb.svg';
+import { makeStyles } from '@mui/material/styles';
+
+
 const steps = [
   {
     label: 'Self-taught learning has begun',
@@ -105,28 +108,22 @@ export default function VerticalLinearStepper() {
       document.body.removeChild(link);
     }
   }
-
   return (
     <>
     <h1 className='eduTitle container-fluid'>Education steps</h1>
     <section className='eduStep container-fluid'>
-      {/* Language selection */}
-      {/* <div className='row-col-2 col-4'>
-          <img id='hun' className='cvFlag' onClick={langSelect} src={Hunflag}></img> |
-          <img className='cvFlag' src={Enflag}></img>
-      </div> */}
-    <Box sx={{ maxWidth: 800 }}>
+    <Box  sx={{ maxWidth: 800 }}>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((step, index) => (
-          <Step key={step.label}>
-            <StepLabel className='stepDiv'>
+          <Step id='stepLbl' key={step.label}>
+            <StepLabel  >
               {step.label}
             </StepLabel>
-            <StepContent>              
+            <StepContent >              
                 <Typography id="engStep" className='descript'>{step.description}</Typography>                                         
-              <Box sx={{ mb: 2 }}>
+              <Box id="box" sx={{ mb: 2 }}>
                 <div>
-                  <Button
+                  <Button 
                     variant="contained"
                     onClick={handleNext}
                     sx={{ mt: 1, mr: 1 }}
@@ -163,6 +160,7 @@ export default function VerticalLinearStepper() {
       )}
     </Box>
     </section>
+   
 </>
   );
 }
