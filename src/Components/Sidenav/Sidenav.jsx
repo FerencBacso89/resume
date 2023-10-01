@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link, NavLink } from "react-router-dom"
 import logo from "../../assets/img/gooseflight_brand.svg"
-import "../Sidenav/sidenav.css"
+import "./Sidenav/sidenav.css"
 
 /*Material UI & Icons */
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
