@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link, NavLink } from "react-router-dom"
 import logo from "../../assets/img/gooseflight_brand.svg"
-import "../Sidenav/sidenav.css"
+import "./Sidenav/sidenav.css"
 
 /*Material UI & Icons */
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
@@ -14,8 +14,10 @@ import {
   BsCardChecklist,
   BsPersonLinesFill,
   BsJournalCode,
+  BsMortarboardFill,
+  BsPersonBoundingBox,
 } from "react-icons/bs";
-import {SiCodesandbox} from "react-icons/si"
+import {SiCodesandbox, SiGithub, SiLinkedin} from "react-icons/si"
 
 import { positions } from '@mui/system';
 import { LinkedIn } from '@mui/icons-material'
@@ -55,13 +57,13 @@ function Sidenav() {
         <Link className="logo" to="/">
               <img id='logo-img' title='Welcome page' src={logo} alt="logo"></img>
         </Link>
-      <NavLink className={"link-elem"} to="/introduce">
-          <TooltipIcon title="Introducion" arrow placement="right">
+        <NavLink className={"link-elem"} to="/education">
+          <TooltipIcon title="Education" arrow placement="right">
             <IconButton className="navElement">
-              <BsPersonLinesFill />
+              <BsMortarboardFill />
             </IconButton>
           </TooltipIcon>
-        </NavLink>
+        </NavLink>      
         <NavLink className={"link-elem"} to="/mycode">
           <TooltipIcon title="My codes" arrow placement="right">
             <IconButton className="navElement">
@@ -69,10 +71,10 @@ function Sidenav() {
             </IconButton>
           </TooltipIcon>
         </NavLink>
-        <NavLink className={"link-elem"} to="/education">
-          <TooltipIcon title="Education" arrow placement="right">
+        <NavLink className={"link-elem"} to="/contact">
+          <TooltipIcon title="Contact me" arrow placement="right">
             <IconButton className="navElement">
-              <BsCardChecklist />
+              <BsPersonBoundingBox />
             </IconButton>
           </TooltipIcon>
         </NavLink>

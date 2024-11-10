@@ -55,7 +55,7 @@
     #myImg{
         width: 90%;
         height: auto;
-        clip-path: circle(40%);
+        clip-path: circle(39%);
         margin:15vh auto;
         object-fit: cover;
         margin-left: 7vw;

@@ -5,6 +5,7 @@ import Mycode from './Components/Mycodes/Mycode'
 import Sidenav from './Components/Sidenav/Sidenav'
 import Introduce from './Components/Introduce/Introduce'
 import Educate from './Components/Educate/Educate'
+import Contact from './Components/Contact/Contact'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <Sidenav/>
       <Routes>
           <Route path="/" element={<Welcome/>}></Route>
-          <Route path="/introduce" element={<Introduce/>}></Route>
+          <Route path="/contact" element={<Contact/>}></Route>
           <Route path="/mycode" element={<Mycode/>}></Route>
           <Route path="/education" element={<Educate/>}></Route>
       </Routes>
@@ -23,8 +24,4 @@ function App() {
   )
 }
 export default App
-function wh (){
-  let windowH=window.innerHeight;
-  let windowW=window.innerWidth;
-  console.log("Res['h'px x 'w'px]"+windowH+" x "+windowW)
-}
+
